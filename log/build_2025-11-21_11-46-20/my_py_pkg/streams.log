@@ -1,0 +1,32 @@
+[0.386s] Invoking command in '/home/ehayes/ros2_ws/src/my_py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ehayes/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ehayes/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/ehayes/ros2_ws/build/my_py_pkg/build install --record /home/ehayes/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[0.460s] running egg_info
+[0.460s] creating ../../build/my_py_pkg/my_py_pkg.egg-info
+[0.465s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.465s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.465s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.465s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.465s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.474s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.474s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.474s] running build
+[0.474s] running build_py
+[0.474s] creating /home/ehayes/ros2_ws/build/my_py_pkg/build
+[0.474s] creating /home/ehayes/ros2_ws/build/my_py_pkg/build/lib
+[0.474s] creating /home/ehayes/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.474s] copying my_py_pkg/__init__.py -> /home/ehayes/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.474s] running install
+[0.476s] running install_lib
+[0.481s] creating /home/ehayes/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.481s] copying /home/ehayes/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/ehayes/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.481s] byte-compiling /home/ehayes/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/__init__.py to __init__.cpython-312.pyc
+[0.481s] running install_data
+[0.481s] creating /home/ehayes/ros2_ws/install/my_py_pkg/share/ament_index
+[0.481s] creating /home/ehayes/ros2_ws/install/my_py_pkg/share/ament_index/resource_index
+[0.481s] creating /home/ehayes/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.481s] copying resource/my_py_pkg -> /home/ehayes/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.481s] copying package.xml -> /home/ehayes/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[0.481s] running install_egg_info
+[0.486s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/ehayes/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[0.486s] running install_scripts
+[0.520s] writing list of installed files to '/home/ehayes/ros2_ws/build/my_py_pkg/install.log'
+[0.531s] Invoked command in '/home/ehayes/ros2_ws/src/my_py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ehayes/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ehayes/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/ehayes/ros2_ws/build/my_py_pkg/build install --record /home/ehayes/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data

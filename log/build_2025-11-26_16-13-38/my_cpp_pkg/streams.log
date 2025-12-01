@@ -1,0 +1,39 @@
+[0.011s] Invoking command in '/home/ehayes/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehayes/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ehayes/ros2_ws/src/my_cpp_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ehayes/ros2_ws/install/my_cpp_pkg
+[0.065s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.148s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.165s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.189s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.195s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.206s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.215s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.250s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.251s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.287s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.356s] -- Configuring done (0.3s)
+[0.372s] -- Generating done (0.0s)
+[0.373s] -- Build files have been written to: /home/ehayes/ros2_ws/build/my_cpp_pkg
+[0.376s] Invoked command in '/home/ehayes/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehayes/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ehayes/ros2_ws/src/my_cpp_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ehayes/ros2_ws/install/my_cpp_pkg
+[0.376s] Invoking command in '/home/ehayes/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehayes/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ehayes/ros2_ws/build/my_cpp_pkg -- -j2 -l2
+[0.420s] [ 50%] [32m[1mLinking CXX executable cpp_node[0m
+[0.539s] [100%] Built target cpp_node
+[0.542s] Invoked command in '/home/ehayes/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehayes/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ehayes/ros2_ws/build/my_cpp_pkg -- -j2 -l2
+[0.545s] Invoking command in '/home/ehayes/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehayes/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ehayes/ros2_ws/build/my_cpp_pkg
+[0.547s] -- Install configuration: ""
+[0.548s] -- Execute custom install script
+[0.548s] -- Symlinking: /home/ehayes/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[0.550s] -- Symlinking: /home/ehayes/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[0.553s] -- Symlinking: /home/ehayes/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[0.555s] -- Symlinking: /home/ehayes/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[0.557s] -- Symlinking: /home/ehayes/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[0.560s] -- Symlinking: /home/ehayes/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[0.562s] -- Symlinking: /home/ehayes/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[0.564s] -- Symlinking: /home/ehayes/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[0.566s] -- Symlinking: /home/ehayes/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[0.569s] -- Symlinking: /home/ehayes/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[0.571s] -- Symlinking: /home/ehayes/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[0.573s] -- Symlinking: /home/ehayes/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[0.575s] -- Symlinking: /home/ehayes/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[0.578s] -- Symlinking: /home/ehayes/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[0.580s] -- Symlinking: /home/ehayes/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[0.582s] -- Symlinking: /home/ehayes/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[0.585s] Invoked command in '/home/ehayes/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ehayes/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ehayes/ros2_ws/build/my_cpp_pkg
