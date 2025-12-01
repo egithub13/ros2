@@ -1,0 +1,36 @@
+# ROS 2 colcon build folders
+build/
+install/
+log/
+
+# pytest, colcon test results
+test_results/
+.colcon/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VSCode / CLion config
+.vscode/
+.idea/
+
+# macOS / Linux temp files
+.DS_Store
+*.swp
+*~
+
+# ROS 2 message/build artifacts sometimes created under src
+**/msg/*.hpp
+**/srv/*.hpp
+**/action/*.hpp
+
+# rosdep install output
+rosdep_install.log
+
